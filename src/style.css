@@ -1,6 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
 :root {
     --bg-black: #0c0e1a;
     --blue-ac: #2c249c;
     --copper-ac: #cb7469;
   }
+
+.hero{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-black);
+  padding-top: 1px;
+}
+
+.text-container{
+  text-align:center;
+  height: 90%;
+  width: 90%;
+  margin:  5vh auto;
+  padding-top: 10%;
+  background-color: whitesmoke;
+  padding: 1px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  color:whitesmoke;
+  font-family: 'Righteous', cursive;
+  font-size: calc(32px + 4vw);
+  animation-name: float;
+  -webkit-transition: text-shadow 1s linear;
+  -moz-transition: text-shadow 1s linear;
+  -ms-transition: text-shadow 1s linear;
+  -o-transition: text-shadow 1s linear;
+  transition: text-shadow 1s linear;
+}
+
+
+.floating{
+  text-shadow: 2px 4px 4px black;
+}
+
+.project{
+  width:100vw;
+  height:100vh;
+  background-color:white;
+  display:flex;
   
+}
+.project-img{
+  flex: 1 1 0%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.img-container{
+  width:70%;
+  height:auto;
+  
+}
+
+img{
+  width:100%;
+  box-shadow: -15px 10px 4px rgb(44, 36, 156, .5)
+}
+
+.details{
+  flex: 1 1 0%;
+  gap:.3vh;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.project-title{
+  font-size: calc(16px + 2vw);
+}

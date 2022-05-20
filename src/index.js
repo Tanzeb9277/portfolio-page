@@ -1,3 +1,5 @@
+import {header, addAnimation} from "./head";
+import { eyeSpy } from "./projects";
 import "./style.css"
 
 function component() {
@@ -10,4 +12,8 @@ function component() {
     return element;
   }
   
-  document.getElementById('root').appendChild(component());
+  document.getElementById('root').append(header(), eyeSpy());
+
+  window.addEventListener('DOMContentLoaded', (_event) => {
+    addAnimation();
+  });
