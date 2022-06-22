@@ -11,7 +11,7 @@ function header() {
     <div class="shape fourth"></div>
     <div class="text-container">
         <div class="text" id="intro">Hi I'm</div>
-        <div class="text" id="fullName">Tanzeem Xhidori</div>
+        <div class="text" id="fullName">Tanzeb Choudhury</div>
         <div class="text" id="title">Web Developer</div>
     </div>`;
 

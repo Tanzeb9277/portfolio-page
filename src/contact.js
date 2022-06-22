@@ -63,12 +63,12 @@ function footer(){
     footer.innerHTML = `
     <div class="icon-container">
   <div class="icon">
-  <a href="">
+  <a href="https://github.com/Tanzeb9277" target='_blank'>
     <img src="https://img.icons8.com/ios-filled/344/ffffff/github.png" alt="Github">
   </a>
     </div>
       <div class="icon">
-      <a href="">
+      <a href="https://www.linkedin.com/in/tanzeb-choudhury-722902140/" target='_blank'>
         <img src="https://img.icons8.com/ios-filled/344/ffffff/linkedin.png" alt="LinkedIn">
       </a>
       </div>
