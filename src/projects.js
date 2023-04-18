@@ -185,10 +185,10 @@ function blog(){
         <img src="https://img.icons8.com/office/344/react.png" alt="React">
 </div>
 <div class="icon">
-    <img src="https://img.icons8.com/color/344/nodejs.png" alt="Node">
+    <img src="https://img.icons8.com/color/256/django.png" alt="Node">
 </div>
 <div class="icon">
-    <img src="https://img.icons8.com/color/344/mongodb.png" alt="Mongo">
+    <img src="https://img.icons8.com/color/256/postgreesql.png" alt="Mongo">
 </div>
 </div>`
 
